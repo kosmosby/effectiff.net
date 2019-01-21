@@ -4,7 +4,7 @@ class JConfig {
     public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
     public $display_offline_message = '1';
     public $offline_image = '';
-    public $sitename = 'Effectiff';
+    public $sitename = '';
     public $editor = 'tinymce';
     public $captcha = '0';
     public $list_limit = '20';
@@ -13,12 +13,12 @@ class JConfig {
     public $debug_lang = '0';
     public $dbtype = 'mysqli';
     public $host = 'localhost';
-    public $user = 'root';
-    public $password = 'staSPE8e';
-    public $db = 'effectiff';
+    public $user = '';
+    public $password = '';
+    public $db = '';
     public $dbprefix = 'jos_';
     public $live_site = '';
-    public $secret = 'GtaPzDKZLLViYLGJ';
+    public $secret = '';
     public $gzip = '0';
     public $error_reporting = 'default';
     public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
@@ -31,8 +31,8 @@ class JConfig {
     public $offset = 'UTC';
     public $mailonline = '1';
     public $mailer = 'mail';
-    public $mailfrom = 'info@effectiff.net';
-    public $fromname = 'Effectiff';
+    public $mailfrom = '';
+    public $fromname = '';
     public $sendmail = '/usr/sbin/sendmail';
     public $smtpauth = '0';
     public $smtpuser = '';
@@ -56,8 +56,8 @@ class JConfig {
     public $unicodeslugs = '0';
     public $feed_limit = '10';
     public $feed_email = 'none';
-    public $log_path = '/home/kosmos/www/effectiff.net/administrator/logs';
-    public $tmp_path = '/home/kosmos/www/effectiff.net/tmp';
+    public $log_path = '';
+    public $tmp_path = '';
     public $lifetime = '15';
     public $session_handler = 'database';
     public $shared_session = '0';
