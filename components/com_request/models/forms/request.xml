@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <fieldset>
+
+
+        <field
+                name="name"
+                type="text"
+                default=""
+                label="Name"
+                description=""
+                class="userform"
+                labelclass="label-userform"
+                required="true"
+        />
+
+        <field
+                name="phone"
+                type="tel"
+                default=""
+                label="Phone"
+                description=""
+                class="userform"
+                labelclass="label-userform"
+                required="true"
+        />
+
+        <field
+                name="email"
+                type="email"
+                default=""
+                label="Email"
+                description=""
+                class="userform"
+                labelclass="label-userform"
+                required="true"
+        />
+        <field type="spacer" name="" hr="false"/>
+    </fieldset>
+
+
+</form>
