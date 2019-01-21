@@ -27,12 +27,27 @@ class RequestController extends JControllerLegacy
 
 	public function save() {
 
-        $model = $this->getModel ( 'approve' );
-        $view =& $this->getView( 'approve', 'html' );
+        require_once JPATH_ADMINISTRATOR.'/components/com_request/tables/request.php';
+        $request =& JTable::getInstance('Request', 'RequestTable');
 
-        $view->setModel( $model, true );
+        $form =& JRequest::getVar( 'jform', array(), 'post', 'array' );
 
-        $view->orderApprove();
+        $request->name = $form['name'];
+        $request->phone = $form['phone'];
+        $request->email = $form['email'];
+
+        //$request->store();
+
+        if(!$request->store()){
+            JError::raiseError(500, $request->getError() );
+        }
+
+        $mainframe =& JFactory::getApplication();
+        $mainframe->Redirect('machine-translations');
+
     }
+
+
+
 
 }

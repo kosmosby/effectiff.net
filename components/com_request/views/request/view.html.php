@@ -20,8 +20,15 @@ class RequestViewRequest extends JViewLegacy
 	public function display($tpl = null)
 	{
 
-
         $this->form = $this->get('Form');
 		parent::display($tpl);
 	}
+
+    function showTemplate($tpl = null) {
+
+        //$model = $this->getModel ( 'request' );
+	    //$model->saveForm();
+
+        parent::display($tpl);
+    }
 }
