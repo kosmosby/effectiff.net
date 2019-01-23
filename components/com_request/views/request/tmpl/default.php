@@ -32,7 +32,7 @@ JHtml::_('behavior.formvalidation');
                     <?php echo JHtml::_('form.token'); ?>
                     <br />
                     <br />
-                    <button type="submit" class="btn btn-primary">Download</button>
+                    <button type="submit" class="btn btn-primary">Download Pdf file</button>
                 </form>
             </div>
         </td>
