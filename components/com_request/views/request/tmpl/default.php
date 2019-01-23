@@ -19,7 +19,7 @@ JHtml::_('behavior.formvalidation');
 <table width="100%">
     <tr>
         <td align="center">
-            <div style="width: 250px;">
+            <div style="width: 250px;" class="request-form">
                 <form action="<?php echo JRoute::_('index.php'); ?>"
                       method="post" name="adminForm" id="userdetails-form" class="form-validate">
                     <?php
@@ -32,7 +32,7 @@ JHtml::_('behavior.formvalidation');
                     <?php echo JHtml::_('form.token'); ?>
                     <br />
                     <br />
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Download</button>
                 </form>
             </div>
         </td>

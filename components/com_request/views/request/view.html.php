@@ -20,6 +20,9 @@ class RequestViewRequest extends JViewLegacy
 	public function display($tpl = null)
 	{
 
+        $document =& JFactory::getDocument();
+        $document->addStyleSheet(JURI::base().'components/com_request/css/request.css');
+
         $this->form = $this->get('Form');
 		parent::display($tpl);
 	}

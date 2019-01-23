@@ -1,0 +1,24 @@
+html, body {
+    /*height:100%;*/
+}
+
+#tm-main {
+    background: url("../images/background.jpg") center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 1;
+}
+
+.tm-header {
+    /*display: none;*/
+}
+
+.request-form {
+    /*color: black;*/
+}
+
+.request-form input {
+    /*border: 1px solid black !important;*/
+}
